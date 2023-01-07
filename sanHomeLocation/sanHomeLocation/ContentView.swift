@@ -10,6 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack{
+            
+          //  if let location = myLocation = MyLocation(){
     
         MapView()
            // ignoresSafeArea(edges: .top)
@@ -28,6 +30,7 @@ struct ContentView: View {
 
                 Text("Nova Scotia")
                     .font(.subheadline)
+                LocationView()
             }
         }
         .padding()
